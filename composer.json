@@ -1,0 +1,35 @@
+{
+    "name": "map/modular-slim",
+    "description": "Modular Slim 4 Application Skeleton",
+    "type": "project",
+    "license": "MIT",
+    "homepage": "https://github.com/markallenpark/modular-slim",
+    "authors": [
+        {
+            "name": "Mark Allen Park",
+            "email": "markallenpark@outlook.com",
+            "homepage": "https://markallenpark.github.io/",
+            "role": "developer"
+        }
+    ],
+    "require": {
+
+    },
+    "require-dev": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Map\\ModularSlim\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Map\\ModularSlim\\Test\\": "tests/"
+        }
+    },
+    "config": {
+        "process-timeout": 0,
+        "sort-packages": true
+    }
+}
