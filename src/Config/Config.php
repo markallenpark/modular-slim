@@ -3,13 +3,10 @@
 namespace Map\ModularSlim\Config;
 
 use Dflydev\DotAccessData\Data;
-use Exception;
 use Map\ModularSlim\Kernel;
 
 class Config
 {
-    const VERSION = '0.0.1';
-
     /**
      * @var Data
      */
