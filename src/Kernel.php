@@ -4,8 +4,13 @@ namespace Map\ModularSlim;
 
 class Kernel
 {
-     public function run() : void
-     {
-         // TODO: Run the application
-     }
+    /**
+     * Framework version
+     */
+    const VERSION = '0.0.1';
+
+    public function run() : void
+    {
+        // TODO: Run the application
+    }
 }
